@@ -2,11 +2,11 @@
 
 namespace WebAppCustomers.Models
 {
-    public class DataContext(DbContextOptions<DataContext> options) : DbContext (options)
+    public class DataContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public DataContext(DbContextOptions<DataContext> options) :
+            base(options)
         {
-            optionsBuilder.UseInMemoryDatabase(databaseName: "TicketSystem");
         }
 
         public virtual DbSet<Ticket> Tickets { get; set; }

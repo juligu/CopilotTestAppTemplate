@@ -1,7 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using WebAppCustomers.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseInMemoryDatabase("TicketSystem");
+});
 
 var app = builder.Build();
 
