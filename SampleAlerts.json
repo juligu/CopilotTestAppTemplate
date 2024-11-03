@@ -1,0 +1,272 @@
+[
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "f2d51f53-283a-4a6d-8b2d-1d19a9147db5",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:34:14+00:00",
+      "eventDataId": "45fdaf47-abc8-4ed4-b232-e2b451c3a045",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "cbbd62e8-5a7e-4d2b-98db-135b2b750cb9",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:28:58.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "eb33d5f2-b5a7-4e7f-9b07-7155f1e5a4c3",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:35:15+00:00",
+      "eventDataId": "dc9a4cb7-57f2-47cf-91f4-2d2943d0d2b5",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "50d33b3e-3b1e-40c2-964a-3df45a27e7f3",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:00.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "9bbf81c5-f7a4-41b5-b8fd-90552f5c6e78",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:36:16+00:00",
+      "eventDataId": "1c712fc4-deda-456a-b7a9-f9dc3a1b38a9",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "fcf0f6b4-8a22-4f37-b80b-d1d64e7f15a4",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:02.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "67b8b230-cf3f-4934-b2a2-2d223b6d6b67",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:37:17+00:00",
+      "eventDataId": "48c3c0b4-5ab9-4915-95a2-8b764b26d60c",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "9f2042b6-e9d8-445a-b876-9092e70f9d5a",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:04.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "c4d476e8-92e6-4b5b-8962-815d76f69e6a",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:38:18+00:00",
+      "eventDataId": "7ef2c7c1-8a0c-4bd4-bb92-5f04597b6f3e",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "16f8e7d5-2f0c-499d-947e-719aa2d5e06f",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:06.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "84b3f07a-bc56-4fb7-9504-5d71cb42a5f9",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:39:19+00:00",
+      "eventDataId": "b29b3c9a-e6f5-429f-8d71-6e263c7816b4",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "f8393d34-d40e-4e95-a2fa-cf284a24f2a4",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:08.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "fa0ed4a5-420c-4956-a9d5-d5b0155b5079",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:40:20+00:00",
+      "eventDataId": "c7ab2a1d-801d-4df7-bf3c-8b91c7857df2",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "78de5c49-7f9e-4658-aceb-f9729be20e89",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:10.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "d7a1f62f-1f93-4df2-878e-bb37df4b25c3",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:41:21+00:00",
+      "eventDataId": "d74b7f43-b8d7-409e-b1cf-49f9d19cb742",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "de0f56ea-3c59-4b59-b1d5-c0ff3f45f22e",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:12.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "abf8b36e-4a39-4d4a-8f94-7dc1e245c3de",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:42:22+00:00",
+      "eventDataId": "e3f10a2d-b4a5-42f1-8bd1-42e9a07d2b32",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "abf274fd-bcf1-4e19-ae9e-6485d08b9d14",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:14.3019107+00:00"
+    }
+  },
+  {
+    "alertContext": {
+      "channels": "Operation",
+      "correlationId": "2f6c6e0c-e3c9-4c75-bb32-2a7e9f97a41e",
+      "eventSource": "Security",
+      "eventTimestamp": "2019-08-26T08:43:23+00:00",
+      "eventDataId": "b55dfc60-f8a7-4188-a4a2-d0b9f3d9a489",
+      "level": "Informational",
+      "operationName": "Microsoft.Security/locations/alerts/activate/action",
+      "operationId": "62f9a3a2-bfb2-4a2b-b5ae-8d58d22c8c98",
+      "properties": {
+        "threatStatus": "Quarantined",
+        "category": "Virus",
+        "threatID": "2147519003",
+        "filePath": "C:\\AlertGeneration\\test.eicar",
+        "protectionType": "Windows Defender",
+        "actionTaken": "Blocked",
+        "resourceType": "Virtual Machine",
+        "severity": "Low",
+        "compromisedEntity": "testVM",
+        "remediationSteps": "[\"No user action is necessary\"]",
+        "attackedResourceType": "Virtual Machine"
+      },
+      "status": "Active",
+      "submissionTimestamp": "2019-08-26T09:29:16.3019107+00:00"
+    }
+  }
+]
