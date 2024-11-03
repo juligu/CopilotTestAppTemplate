@@ -247,5 +247,22 @@ Now, in the **WebAppCustomers\Pages\Tickets\Details.cshtml** file, you can use C
 
 Apply some styling using Copilot chat and execute the application, validate the details of the first and the last ticket, is there any issues with the app? is there anything that needs to be investigated?
 
+## Performance troubleshooting
 
+Navigate to the **WebAppCustomers\Data\TicketsRepository.cs** file, locate the **GetTicketByIdAsync** method, highlight the method and right-click on the editor and select Copilot, Explain. Read the copilot output, is there any feedback? any suggestions ? If so, feel free to implement the changes and execute the application and validate it again. You can also use the Copilot chat providing the following input
+```
+@workspace #selection are there any performance improvements?
+```
+<details>
+  <summary>Solution</summary>
+  
+```
+// Copilot will suggest the following implementation, you can ask the same question multiple times with different implementations and see if there's more room for improvement
+
+public async Task<Ticket> GetTicketByIdAsync(int id)
+{
+    return await _context.Tickets.FirstOrDefaultAsync(ticket => ticket.ID == id);
+}
+```
+</details>
   
