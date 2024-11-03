@@ -265,4 +265,95 @@ public async Task<Ticket> GetTicketByIdAsync(int id)
 }
 ```
 </details>
+
+## Investigate security risks
+
+You can also use Copilot to investigate security risks, using Copilot chat ask the following question, review the output and look at suggestions 
+```
+@workspace are there any security risks?
+```
+
+Navigate to the **WebAppCustomers\Pages\Privacy.cshtml** or the **WebAppCustomers\Pages\Privacy.cshtml.cs** file depending on the Copilot output and implement the suggestion
+
+Then, navigate to **WebAppCustomers\Program.cs** and fix the Cors based on the suggested code.
+
+## Document the code
+
+Navigate to the **WebAppCustomers\Data\TicketsRepository.cs** file and right click on each method and select the Copilot menu, Generate Docs, review the documentation and accept it
+
+## Generate unit tests
+
+Using Copilot Chat, ask to generate unit tests
+
+```
+@workspace /tests #file:TestHelper.cs Generate Unit tests
+```
+
+Accept the changes, save the file in the **TestProject1** project overwriting the **UnitTest1.cs** file
+<details>
+  <summary>Solution</summary>
   
+```
+public class UnitTest1
+{
+    [Fact]
+    public void Factorial_WithZero_ReturnsOne()
+    {
+        // Arrange
+        int input = 0;
+        int expected = 1;
+
+        // Act
+        int result = TestHelper.Factorial(input);
+
+        // Assert
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Factorial_WithPositiveNumber_ReturnsFactorial()
+    {
+        // Arrange
+        int input = 5;
+        int expected = 120;
+
+        // Act
+        int result = TestHelper.Factorial(input);
+
+        // Assert
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Reverse_WithNonEmptyString_ReturnsReversedString()
+    {
+        // Arrange
+        string input = "hello";
+        string expected = "olleh";
+
+        // Act
+        string result = TestHelper.Reverse(input);
+
+        // Assert
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Reverse_WithEmptyString_ReturnsEmptyString()
+    {
+        // Arrange
+        string input = "";
+        string expected = "";
+
+        // Act
+        string result = TestHelper.Reverse(input);
+
+        // Assert
+        Assert.Equal(expected, result);
+    }
+}
+```
+</details>
+
+Build the solution and using the test explorer menu execute the generated tests
+![Test results](/Images/01_04.jpg)
