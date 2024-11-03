@@ -356,4 +356,51 @@ public class UnitTest1
 </details>
 
 Build the solution and using the test explorer menu execute the generated tests
+
 ![Test results](/Images/01_04.jpg)
+
+## IaaC help
+
+Navigate to the following file **IaaC\Resources.bicep**, use Copilot to generate a Bicep file to deploy a new app service and a new app service plan (Hint: // Generate app service and app service plan). We're not going to deploy the bicep file but you should see the required Bicep code 
+
+<details>
+  <summary>Solution</summary>
+  
+```
+
+
+param location string = 'East US'
+param sku string = 'F1'
+param appName string = 'myappservice'
+param planName string = 'myappserviceplan'
+
+resource appServicePlan 'Microsoft.Web/serverfarms@2020-06-01' = {
+  name: planName
+  location: location
+  sku: {
+    name: sku
+    tier: 'Free'
+  }
+  kind: 'linux'
+  properties: {
+    reserved: true
+  }
+}
+
+resource appService 'Microsoft.Web/sites@2020-06-01' = {
+  name: appName
+  location: location
+  properties: {
+    serverFarmId: appServicePlan.id
+    siteConfig: {
+      appSettings: [
+        {
+          name: 'WEBSITE_RUN_FROM_PACKAGE'
+          value: '1'
+        }
+      ]
+    }
+  }
+}
+```
+</details>
