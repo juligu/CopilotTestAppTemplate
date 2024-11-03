@@ -10,6 +10,7 @@ namespace WebAppCustomers.Data
         public TicketsRepository(DataContext context)
         {
             _context = context;
+            _context.Database.EnsureCreated();
         }
 
         public async Task<List<Ticket>> GetTicketsAsync()
@@ -26,7 +27,9 @@ namespace WebAppCustomers.Data
                 if (ticket.ID == id)
                 {
                     return ticket;
+                    
                 }
+                await Task.Delay(200);
             }
             return null;
         }

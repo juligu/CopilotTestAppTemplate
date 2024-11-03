@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using WebAppCustomers.Data;
 using WebAppCustomers.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,8 @@ builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseInMemoryDatabase("TicketSystem");
 });
+
+builder.Services.AddScoped<TicketsRepository>();
 
 var app = builder.Build();
 
