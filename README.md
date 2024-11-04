@@ -69,7 +69,7 @@ Locate the following file **WebAppCustomers\Pages\Tickets\Index.cshtml.cs** and 
 </details>
 
 
-Then, add a contructor that receives the TicketsRepository object as a parameter (Hint: you can ask copilot to add a constructor
+Then, add a contructor that receives the TicketsRepository object as a parameter (Hint: you can ask copilot to add a constructor)
 <details>
   <summary>Solution</summary>
   
