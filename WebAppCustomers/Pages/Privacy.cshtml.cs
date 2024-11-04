@@ -12,8 +12,9 @@ namespace WebAppCustomers.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public void OnGet(string name)
         {
+            Name = name;
         }
     }
 
