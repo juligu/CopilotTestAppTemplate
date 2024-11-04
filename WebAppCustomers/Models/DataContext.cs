@@ -2,11 +2,11 @@
 
 namespace WebAppCustomers.Models
 {
-    public class DataContext : DbContext
+    public class DataContext(DbContextOptions<DataContext> options) : DbContext(options)
     {
-        public DataContext(DbContextOptions<DataContext> options) :
-            base(options)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
         }
 
         public virtual DbSet<Ticket> Tickets { get; set; }
