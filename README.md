@@ -109,9 +109,9 @@ public async Task OnGet()
 
 Locate the following file **WebAppCustomers\Pages\Tickets\Index.cshtml**, you can create a comment to instruct Copilot to create a table to display the Tickets
 ```
-@* Display a list of tickets *@
+@* Table to display List<Tickets> *@
 ```
-Complete copilot suggestions, it should look similar to this, double check the code and validate that it makes sense 
+Complete copilot suggestions, it should look similar to this, double check the code and validate that it makes sense. You can also use the Copilot chat feature.
 
 <details>
   <summary>Solution</summary>
@@ -174,7 +174,8 @@ In the same file, in the generated table, add a link to navigate to the Details 
 <details>
   <summary>Solution</summary>
   
-```@* Link to tickets details *@
+```
+@* Link to tickets details *@
 <td>
     <a asp-page="Details" asp-route-id="@item.ID">Details</a>
 </td>
