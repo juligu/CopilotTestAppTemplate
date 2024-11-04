@@ -59,7 +59,7 @@ Then copilot will suggest the required code, review the generated code.
 
 ## Display generated data
 
-Locate the following file **WebAppCustomers\Pages\Tickets\Index.cshtml.cs** and add a new public property, it should be a List<Tickets> object
+Locate the following file **WebAppCustomers\Pages\Tickets\Index.cshtml.cs** and add a new public property, it should be a List of Tickets object
 <details>
   <summary>Solution</summary>
   
