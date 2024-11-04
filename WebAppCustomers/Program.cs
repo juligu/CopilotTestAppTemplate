@@ -14,6 +14,13 @@ builder.Services.AddDbContext<DataContext>(options =>
 
 builder.Services.AddScoped<TicketsRepository>();
 
+builder.Services.AddCors(p => p.AddDefaultPolicy(policy =>
+{
+    policy.AllowAnyOrigin();
+    policy.AllowAnyHeader();
+    policy.AllowAnyMethod();
+}));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
